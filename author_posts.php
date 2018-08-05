@@ -1,6 +1,5 @@
 <?php  include "includes/db.php"; ?>
- <?php  include "includes/header.php"; ?>
-
+<?php  include "includes/header.php"; ?>
 
     <!-- Navigation -->
     
@@ -25,8 +24,7 @@
     
     }
 
-    
-                
+           
     $query = "SELECT * FROM posts WHERE post_user = '{$the_post_author}' ";
     $select_all_posts_query = mysqli_query($connection,$query);
 
@@ -103,19 +101,11 @@ $update_comment_count = mysqli_query($connection,$query);
  
  
  }
-                    
-                    
-                    
-                    }
-                    
-                    
-               
+}
+            
 ?> 
 
-            </div>
-            
-              
-
+</div>
             <!-- Blog Sidebar Widgets Column -->
             
             

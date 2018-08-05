@@ -9,34 +9,17 @@ if(isset($_POST['submit'])) {
 $to         = "support@edwindiaz.com";
 $subject    = $_POST['subject'];
 $body       = $_POST['body'];
-    
-
-  
 
 }
 
 
-
-
-
-
-
-
 ?>
  
- 
- 
- 
- 
- 
-
-    <!-- Navigation -->
+ <!-- Navigation -->
     
     <?php  include "includes/navigation.php"; ?>
     
-    
-    
- 
+
     <!-- Page Content -->
     <div class="container">
     
@@ -72,9 +55,7 @@ $body       = $_POST['body'];
     </div> <!-- /.container -->
 </section>
 
-
-        <hr>
-
+<hr>
 
 
 <?php include "includes/footer.php";?>
