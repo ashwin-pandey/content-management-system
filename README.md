@@ -3,7 +3,7 @@
 *   This content management system is build for a blogging platform to provide users a place where they can
     post their thoughts and implement their writing skills.
 
-*   It is built using,
+*   Technologies used,
     *   PHP
     *   MySQL
     *   HTML 5
